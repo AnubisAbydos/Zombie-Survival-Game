@@ -22,7 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Bullet.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Constants.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameController.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="MapController.py">
